@@ -13,7 +13,7 @@ header {
 h1 {
   font-family: serif;
   font-size: 50px;
-  margin-top: 5%;
+  margin-top: 2%;
 }
 
 .info-wrap {
@@ -22,20 +22,22 @@ h1 {
 }
 
 .info {
-  margin-top: 10%;
+  margin-top: 7%;
   border: 1px solid black;
-  background-color: rgb(231, 226, 226);
+  background-color: rgb(230, 225, 225);
   width: 40%;
   box-shadow: 10px 5px 5px darkgrey;
   text-align: center;
+  padding: 2%;
 }
 
 .info > h4 {
-  background-color: rgb(231, 226, 226);
+  background-color: rgb(230, 225, 225);
   font-size: 18px;
   margin-top: 1.5px;
   margin-bottom: 15px;
 }
+
 p {
   text-decoration: underline;
 }
@@ -44,6 +46,7 @@ p {
   display: flex;
   justify-content: center;
   margin-top: 5%;
+  margin-bottom: 5%;
   font-size: 110%;
   text-decoration: none;
 }
@@ -51,12 +54,11 @@ p {
 h2 {
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-  margin-top: 10%;
+  margin: 5% 5%;
 }
 
 img {
-  margin-bottom: 2.5%;
-  margin-top: 4%;
+  margin-top: 2%;
 }
 
 .ingredients,
@@ -70,7 +72,7 @@ img {
 }
 
 .ing {
-  margin-top: 5%;
+  margin-top: 2%;
 }
 
 .ingredients {
@@ -86,10 +88,11 @@ img {
 
 .to-do {
   margin-top: 15px;
+  width: 400px;
 }
 
 h3 {
-  margin-top: 0;
+  margin-top: 5px;
 }
 
 img {
@@ -99,7 +102,7 @@ img {
   width: 550px;
   max-width: 100%;
   height: auto;
-  margin-bottom: 6%;
+  margin-bottom: 10%;
 }
 
 img:hover {
@@ -120,7 +123,7 @@ a:hover {
 
 .wrap {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
 }
 
 .img-wrap {
@@ -131,4 +134,76 @@ a:hover {
 .h2-wrap {
   display: flex;
   justify-content: center;
+}
+
+article {
+  margin: 5% 10%;
+  width: 80vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 0px 20px 10px rgb(163, 163, 163);
+  background: white;
+}
+.bar {
+  display: flex;
+  flex-direction: column;
+}
+
+.bar > a {
+  color: black;
+  margin-top: 10%;
+  background-color: beige;
+}
+
+.choose-recipe {
+  margin-left: 1%;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 20px;
+  width: 7%;
+}
+
+.conatainer1,
+.container2,
+.container3,
+.info-wrap,
+p,
+.links,
+section,
+h2,
+img,
+.ingredients,
+.to-do,
+.ing,
+.ingredients,
+.do-this,
+h3,
+a,
+.wrap,
+.img-wrap,
+.h2-wrap {
+  background-color: white;
+}
+
+#chili {
+  margin-left: 45%;
+}
+
+#korvstroganoff {
+  margin-left: 15%;
+}
+
+#ceviche {
+  margin-left: 30%;
+}
+
+@media screen and (max-width: 600px) {
+  .first-art,
+  .second-art,
+  .third-art {
+    width: 95%;
+    margin: 0 0 5% 2.5%;
+  }
 }
