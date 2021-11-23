@@ -1,5 +1,5 @@
 * {
-  background-color: beige;
+  background-color: rgb(235, 235, 188);
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -13,7 +13,7 @@ header {
 h1 {
   font-family: serif;
   font-size: 50px;
-  margin-top: 2%;
+  margin-top: 6.5%;
 }
 
 .info-wrap {
@@ -42,7 +42,7 @@ p {
   text-decoration: underline;
 }
 
-.links {
+footer {
   display: flex;
   justify-content: center;
   margin-top: 5%;
@@ -51,10 +51,15 @@ p {
   text-decoration: none;
 }
 
+.links {
+  display: flex;
+}
+
 h2 {
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-  margin: 5% 5%;
+  margin-top: 60%;
+  margin-bottom: 40%;
 }
 
 img {
@@ -131,11 +136,6 @@ a:hover {
   justify-content: center;
 }
 
-.h2-wrap {
-  display: flex;
-  justify-content: center;
-}
-
 article {
   margin: 5% 10%;
   width: 80vw;
@@ -143,8 +143,9 @@ article {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  box-shadow: 0px 0px 20px 10px rgb(163, 163, 163);
+  box-shadow: 0px 0px 15px 5px rgb(163, 163, 163);
   background: white;
+  margin-bottom: 15%;
 }
 .bar {
   display: flex;
@@ -154,7 +155,7 @@ article {
 .bar > a {
   color: black;
   margin-top: 10%;
-  background-color: beige;
+  background-color: rgb(235, 235, 188);
 }
 
 .choose-recipe {
@@ -183,27 +184,19 @@ h3,
 a,
 .wrap,
 .img-wrap,
-.h2-wrap {
+.h2-wrap,
+footer {
   background-color: white;
 }
 
 #chili {
-  margin-left: 45%;
+  margin-left: 65%;
 }
 
 #korvstroganoff {
-  margin-left: 15%;
+  margin-left: 8%;
 }
 
 #ceviche {
-  margin-left: 30%;
-}
-
-@media screen and (max-width: 600px) {
-  .first-art,
-  .second-art,
-  .third-art {
-    width: 95%;
-    margin: 0 0 5% 2.5%;
-  }
+  margin-left: 10%;
 }
